@@ -1,0 +1,58 @@
+
+public class Passenger 
+{
+    private int guestNum;
+    private String firstName;  //parameter variable
+    private String surName;
+    private int expenses;
+
+    // default constructor
+    public Passenger() {
+    }
+
+    public Passenger(int gNum, String fName, String sName, int exp) {
+        this.guestNum = gNum;
+        this.firstName = fName;   //instance variable
+        this.surName = sName;
+        this.expenses = exp;
+    }
+
+    // Set Methods
+    public void setFirstName(String fname ) {
+        this.firstName = fname;
+    }
+
+    public void setSurName(String sname) {
+        this.surName = sname;
+    }
+
+    public void setGuestNum(int num) {
+        this.guestNum = num;
+    }
+
+    public void setExpenses(int num) {
+        this.expenses = num;
+    }
+
+
+    // Get Methods
+	
+    public String getFirstName() {
+        return this.firstName;
+    }
+
+    public String getSurName() {
+        return this.surName;
+    }
+
+    public int getGuestNum() {  
+        return this.guestNum;
+    }
+
+    public int getExpenses() {
+        return this.expenses;
+    }
+
+
+}
+
